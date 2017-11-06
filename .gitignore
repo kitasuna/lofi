@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# nested npm package-lock file
+**/package-lock.json
+
+# nested node modules dirs
+**/node_modules/
