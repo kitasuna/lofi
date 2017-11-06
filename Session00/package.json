@@ -1,0 +1,14 @@
+{
+  "name": "session00",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prezen_curry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
