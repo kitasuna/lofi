@@ -6,7 +6,7 @@
 
 - Clone this repository
 
-  `git@github.com:kitasuna/lofi.git`
+  `git clone git@github.com:kitasuna/lofi.git`
 
 - `cd lofi/Session00`
 
