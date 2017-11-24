@@ -16,7 +16,9 @@ const match = (what, str) => {
   return str.match(what)
 }
 
+// add.js -> exercise
+const hasCurry = R.curry(match)('curry');
 
 module.exports = {
-  add, match
+  add, hasCurry, match
 }

@@ -1,4 +1,4 @@
-# Session 00: Currying and Composition
+# Lofi: FP Fundamentals exercises
 
 ## Getting set up
 
@@ -8,6 +8,6 @@
 
   `git clone git@github.com:kitasuna/lofi.git`
 
-- `cd lofi/Session00`
+- `cd lofi`
 
 - `npm install`

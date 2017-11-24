@@ -29,12 +29,14 @@ const filterByAge = (minAge, maxAge, user) => {
  *****EXERCISE 1*****
  * Make a curried function to filter by profession = 'Rapper'
  */
-const getRappers = undefined;
+const cFilterByProfession = R.curry(filterByProfession);
+const getRappers = cFilterByProfession('Rapper')
+console.log(getUsers().filter(getRappers))
+
 
 /*
  *****EXERCISE 2*****
  * Use a curried curried function to get ageGroup1 and ageGroup2, below
- */
 let ageGroup1 = getUsers().filter((user) => filterByAge(18, 25, user))
 let ageGroup2 = getUsers().filter((user) => filterByAge(26, 34, user))
 

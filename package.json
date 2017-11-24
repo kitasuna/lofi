@@ -1,8 +1,8 @@
 {
-  "name": "session00",
+  "name": "lofi",
   "version": "1.0.0",
   "description": "",
-  "main": "prezen_curry.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
