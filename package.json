@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fluture": "^8.0.0",
     "ramda": "^0.25.0"
   }
 }
